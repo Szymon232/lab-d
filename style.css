@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+#addressInput {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#currentWeather,
+#forecast {
+  margin-top: 20px;
+}
+
+/* Dodatkowe style dla prognozy 5-dniowej */
+#forecast hr {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
